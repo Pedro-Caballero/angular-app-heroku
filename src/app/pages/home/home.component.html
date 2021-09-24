@@ -1,0 +1,26 @@
+<div class="m-5" id="cambiar2">
+
+  <h1>Bienvenido</h1><h5>{{datos.email}}</h5>
+  <button class="btn btn-outline-danger" style="margin: 0 60rem;"
+      (click)="salir()" id="cambiar">
+    Salir
+  </button>
+  <hr>
+
+</div>
+
+<div class="m-5">
+  <label>Ingrese su valor hexadecimal</label>
+    <div class="wrap-input100 m-b-16" id="exadecimal">
+      <input class="input100"
+            type="text"
+            placeholder="#fgv52r"
+            [(ngModel)]='exadecimal'
+            >
+
+      <span class="focus-input100"></span>
+
+  </div>
+<br>
+<button id="cambiar3" class="btn btn-outline-danger" style="margin: 0" type="button" type="button" (click)="myFunction()">Cambiar de color</button>
+</div>
